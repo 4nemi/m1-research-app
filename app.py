@@ -43,7 +43,7 @@ def main():
                 st.session_state.evaluations = {}
 
             # stepを表示
-            st.write(f"Step: {st.session_state.current_file_index + 1}")
+            st.write(f"プロセス: {st.session_state.current_file_index + 1}")
 
             if st.session_state.current_file_index < 4:
                 file_path = files[st.session_state.current_file_index]
